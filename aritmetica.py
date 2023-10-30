@@ -25,5 +25,8 @@ def es_par(num: int) -> bool:
     """
 
     # ¡Tu código va aquí!
-    pass
+    if num % 2 == 0:
+        return True
+    else:
+        return False
 
